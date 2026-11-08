@@ -1,0 +1,27 @@
+# Bytecode e ambientes virtuais Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Empacotamento / Build
+build/
+dist/
+*.spec
+*.exe
+
+# Dados locais de execuções, snapshots e relatórios gerados (uso interno)
+snapshots/
+relatorios_html/
+relatorio_competitivo.html
+relatorio_competitivo.md
+
+# Variáveis de ambiente e arquivos do sistema operacional
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

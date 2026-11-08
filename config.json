@@ -1,0 +1,41 @@
+{
+  "competitors": [
+    {
+      "name": "Linear",
+      "url": "https://linear.app/changelog",
+      "selector": "main",
+      "enabled": true
+    },
+    {
+      "name": "Notion",
+      "url": "https://www.notion.com/releases",
+      "selector": "main",
+      "enabled": true
+    },
+    {
+      "name": "Figma",
+      "url": "https://www.figma.com/release-notes/",
+      "selector": null,
+      "enabled": true
+    }
+  ],
+  "ai": {
+    "backend": "ollama",
+    "model": "gemma3:4b",
+    "host": "http://localhost:11434",
+    "temperature": 0.2,
+    "timeout_seconds": 180,
+    "max_input_chars": 12000
+  },
+  "scraping": {
+    "timeout_seconds": 20,
+    "min_line_length": 8,
+    "user_agent": "Mozilla/5.0 (compatible; CompetitiveIntelMonitor/1.0; +https://github.com/)"
+  },
+  "output": {
+    "format": "html",
+    "report_file": "relatorio_competitivo",
+    "reports_dir": "relatorios_html",
+    "snapshots_dir": "snapshots"
+  }
+}
